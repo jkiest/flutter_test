@@ -32,3 +32,13 @@ Data Format: JSON (Local Asset)
 Font: Google Fonts (Poppins)
 
 📂 專案結構
+lib/
+├── models/          # 資料模型 (Hotel, Booking, User)
+├── providers/       # 狀態管理中心 (HotelProvider, UserProvider, etc.)
+├── screens/         # UI 畫面
+│   ├── home_screen.dart           # 飯店首頁
+│   ├── login_screen.dart          # 登入頁面
+│   ├── hotel_details_screen.dart  # 飯店詳細資訊
+│   ├── my_bookings_screen.dart    # 訂單列表
+│   └── profile_screen.dart        # 個人資料頁面
+└── main.dart        # App 入口與 Provider 配置
