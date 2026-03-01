@@ -1,0 +1,40 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tooling to track customization in Flutter framework repos.
+#
+# Modifications to this file should be manually undone by the user, as the
+# tooling cannot distinguish between intentional and accidental modifications.
+
+version:
+  revision: 7f60fde69e
+  channel: stable
+
+project_type: app
+
+# Tracks metadata about this Flutter project.
+metadata:
+  version: 1
+
+  # projectRoot: /path/to/project
+  # hasGetDependencies: true
+  # hasTests: true
+  # hasAutomatedTests: true
+  # hasDevTests: false
+  # generated: true
+  # These properties may not be present in older metadata versions, so we have
+  # to handle their absence gracefully.
+  isPlugin: false
+  isModule: false
+  isPlugin: false
+  isModule: false
+  pluginType: null
+  platforms:
+    - platform: android
+    - platform: ios
+    - platform: linux
+    - platform: macos
+    - platform: windows
+    - platform: web
+  plugins: []
+  assets: []
+  modules: []
+  generated: false
