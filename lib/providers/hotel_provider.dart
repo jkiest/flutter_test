@@ -21,7 +21,7 @@ class HotelProvider with ChangeNotifier {
 
     try {
       // 模擬從 API 抓取：讀取本地檔案
-      final String response = await rootBundle.loadString('assets/data/hotel_info.json');
+      final response = await rootBundle.loadString('assets/data/hotel_info.json');
       final data = json.decode(response);
 
       // 模擬網路延遲 1 秒（讓 App 更有真實感）

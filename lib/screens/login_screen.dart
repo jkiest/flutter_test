@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             }
 
                             // 執行登入程序
-                            bool success = await userProvider.login(email, password);
+                            final success = await userProvider.login(email, password);
 
                             if (!mounted) return;
 

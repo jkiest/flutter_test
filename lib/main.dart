@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-// 引入你的 Providers
-import 'providers/hotel_provider.dart';
-import 'providers/user_provider.dart';
-import 'providers/booking_provider.dart';
+import 'package:provider/provider.dart';
 
 // 引入你的導覽外殼
-import 'main_wrapper.dart'; 
+import 'main_wrapper.dart';
+import 'providers/booking_provider.dart';
+// 引入你的 Providers
+import 'providers/hotel_provider.dart';
+import 'providers/user_provider.dart'; 
 
 void main() {
   runApp(const HotelApp());
